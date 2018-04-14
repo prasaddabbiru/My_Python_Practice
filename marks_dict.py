@@ -5,9 +5,9 @@ marks = {'Prasad':{'English':65,'Maths':55,'Science':68,'Hindi':78},
 x = str(input("Enter Candidate name for total marks:"))
 if x in marks.keys():
     for i in marks.values():
-        print("---: Each Subject Marks below :---\n",marks[x])
+        print("---: Each Subject Marks below :---\n",marks[x])  ##marks[Key]
         total_marks = marks[x]
-        print(sum(total_marks.values()))
+        print("Total Marks",sum(total_marks.values()))
         avg = (sum(total_marks.values())/4)
         print("Average of ", x , " is " , avg)
         break

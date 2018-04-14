@@ -1,0 +1,5 @@
+#String formatting oprions in python
+#'My name is John and I am 33' - print the same message using different string formattings.
+
+person = {'name': 'John', 'age':23}
+
