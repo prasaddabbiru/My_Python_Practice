@@ -1,8 +1,14 @@
-r=int(input("Enter upper limit: "))
-for a in range(2,r):
-    k=0
-    for i in range(2,a//2+1):
-        if(a%i==0):
-            k=k+1
-    if(k<=0):
-        print(a)
+#primeList[]
+
+primeList=[]
+max=int(input("Enter range to display primes:"))
+for x in range(2,max+1):
+        isPrime=True
+        for y in range(2,int(x**0.5)+1):
+                if(x%y==0):
+                        isPrime=False
+                        break
+        if isPrime:
+                primeList.append(x)
+print(primeList)
+print(sum(primeList))

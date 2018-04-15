@@ -1,6 +1,6 @@
-# for i in range(1,11):
-# 	sentence = 'The value is {}'.format(i)
-# 	print(sentence)
+for i in range(1,11):
+	sentence = 'The value is {}'.format(i)
+	print(sentence)
 #Output
 # The value is 1
 # The value is 2
