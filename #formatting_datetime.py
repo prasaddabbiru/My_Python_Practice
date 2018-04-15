@@ -16,3 +16,6 @@ print(sentence)
 
 sentence= '{0:%B %d, %Y} fell on a {0:%A} and was the {0:%j} of the year.'.format(my_date)
 print(sentence)
+
+#Output
+#April 15, 2018 fell on a Sunday and was the 105 of the year.
